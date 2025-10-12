@@ -1,12 +1,12 @@
-# ts10 🧠 User Profile Manager (TypeScript)
+# ts102 🧠 User Profile Manager (TypeScript)
 
 This project demonstrates **TypeScript functions, objects, and interfaces** through a small CRUD application for user profiles.
 
 ## 🚀 Setup
 
 ```bash
-git clone https://github.com/<your-username>/user-profile-manager.git
-cd user-profile-manager
+git clone https://github.com/luckyhegde6/ts102.git
+cd ts102
 npm install
 npm run build
 npm start
@@ -38,7 +38,7 @@ npm test
 
 - DELETE /users/:id
 
-# Notes, trade-offs & next steps (quick, senior-style thinking)
+## Notes, trade-offs & next steps (quick, senior-style thinking)
 
 - **Why JSON store?** Great for demos, no external DB required, easy to inspect and portable. Good for weekend work and demos; simpler to implement and test.
 - **Limitations:** Not suited for concurrent heavy writes or huge datasets. If you expect scale, switch to SQLite (Prisma or better-sqlite3) or a managed DB.
@@ -61,4 +61,8 @@ npm test
 
 ## 📚 Learning Concepts
 
-See docs/LEARNING.md for detailed explanations of TypeScript concepts used.
+-   [DESIGN.md](docs/DESIGN.md) - Design Overview (HLD/ LLD)
+-   [GUIDE.md](docs/GUIDE.md) - Developer Guide (Run/Debug)
+-   [LEARNING.md](docs/LEARNING.md) - TypeScript Learning Notes
+-   [INTERVIEW.md](docs/INTERVIEW.md) - Interview Questions
+-   References to key TS concepts - [link](https://www.typescriptlang.org/docs/handbook/intro.html)

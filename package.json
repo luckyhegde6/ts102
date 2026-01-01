@@ -10,11 +10,11 @@
     "test": "jest --runInBand"
   },
   "dependencies": {
-    "express": "^5.1.0",
+    "express": "^5.2.1",
     "uuid": "^13.0.0"
   },
   "devDependencies": {
-    "@types/express": "^5.0.5",
+    "@types/express": "^5.0.6",
     "@types/jest": "^30.0.0",
     "@types/node": "^24.7.2",
     "@types/uuid": "^10.0.0",
